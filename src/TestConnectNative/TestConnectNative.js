@@ -27,6 +27,15 @@ const TestConnectNative = {
       testConnectNative.goToSecondActivity();
     }
   },
+
+  goToPoseNative: tag => {
+    if (Platform.OS === 'ios') {
+      // testConnectNative.goToSecondViewController(tag);
+      pass
+    } else {
+      testConnectNative.goToRNPoseActivity();
+    }
+  },
 };
 
 export default TestConnectNative;
