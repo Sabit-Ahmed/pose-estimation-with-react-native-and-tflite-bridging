@@ -28,12 +28,6 @@ class TestConnectNativeModule internal constructor(private val reactContext: Rea
   }
 
   @ReactMethod
-  fun goToSecondActivity() {
-    val intent = Intent(currentActivity, SecondActivity::class.java)
-    currentActivity?.startActivity(intent)
-  }
-
-  @ReactMethod
   fun goToRNPoseActivity() {
     val intent = Intent(currentActivity, RNPoseActivity::class.java)
     currentActivity?.startActivity(intent)

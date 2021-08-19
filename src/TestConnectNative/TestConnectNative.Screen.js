@@ -64,11 +64,6 @@ class TestConnectNativeScreen extends Component {
           onPress={this.sendCallbackToNative}>
           <Text style={styles.textBtnSend}>Send callback to native</Text>
         </TouchableOpacity>
-        {/* <TouchableOpacity
-          style={styles.btnSend}
-          onPress={this.goToSecondNativeScr}>
-          <Text style={styles.textBtnSend}>Go to second native screen</Text>
-        </TouchableOpacity> */}
         <TouchableOpacity
           style={styles.btnSend}
           onPress={this.goToPoseNativeScr}>
